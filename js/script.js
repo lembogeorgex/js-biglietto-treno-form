@@ -27,4 +27,6 @@ const button =  document.getElementById("button");
 
 button.addEventListener("click", function() {
     console.log(userName.value)
+    console.log(kmts.value)
+    console.log(age.value)
 })

@@ -3,22 +3,20 @@ console.log("JS OK");
 
 
 // Mod targeting element
-document.getElementById("userName");
+document.getElementById("naming");
 document.getElementById("kmts");
 document.getElementById("age");
 
 
 
 // Name check
-const targetName = userName.value
+const targetName =  document.getElementById("naming");
 
 // Kilometers check
-const userKM = kmts.value
-
+const userKM = document.getElementById("kmts");
 
 // Age Check
-const userAge = age.value
-
+const userAge =document.getElementById("age");
 
 
 // Event Function
@@ -26,7 +24,8 @@ const userAge = age.value
 const button =  document.getElementById("button");
 
 button.addEventListener("click", function() {
-    console.log(userName.value)
-    console.log(kmts.value)
-    console.log(age.value)
+    console.log(targetName.value)
+    console.log(userKM.value)
+    console.log(userAge.value)
+
 })

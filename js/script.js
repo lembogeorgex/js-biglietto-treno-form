@@ -21,9 +21,16 @@ const userAge =document.getElementById("age");
 const button =  document.getElementById("button");
 
 button.addEventListener("click", function() {
+    document.getElementById("nameResult").trim()
     document.getElementById("nameResult").innerText = (targetName.value)
+
+    document.getElementById("kmtsResult").trim()
     document.getElementById("kmtsResult").innerText = (userKM.value)
+
+
+    document.getElementById("ageResult").trim()
     document.getElementById("ageResult").innerText = (userAge.value)
 
 })
 
+// ! VALIDATION
